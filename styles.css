@@ -1,0 +1,77 @@
+html { /* Requirement-2.A */
+   background-color: #B9F9FD; /* Requirement-2.4 */
+}
+body {
+   font-family: Verdana, sans-serif; /* Requirement-2.1 */
+   font-size: 18px;
+   color: #000; /* Requirement-2.3 */
+   margin-left: 100px; /* Requirement-2.9 */
+   max-width: 50%; /* Requirement-2.7 */ /* Requirement-2.10 */
+   display: block; /* Requirement-2.12 */
+   clear: left; /* Requirement-2.13 */
+   overflow: auto; /* Requirement-2.14 */
+}
+
+body h1 { /* Requirement-2.F */
+   font-family: Georgia, serif;
+   font-size: 48px;
+   font-weight: bold;
+   color: #000;
+   margin: 100px 0 25px 0; /* Requirement-2.6 */
+}
+
+body h2 {
+   margin-top: 75px;
+}
+
+.button { /* Requirement-2.C */
+   padding: 10px;
+   border: #000 1px solid; /* Requirement-2.5 */
+   color: #000;
+}
+
+nav {
+   position: sticky; /* Requirement-2.15 */
+}
+
+a {
+   text-decoration: none; /* Requirement-2.2 */
+}
+
+ul {
+   list-style-type: square; /* Requirement-2.8 */
+}
+
+details p { /* Requirement-2.G */
+   background-color: #ADE2E6;
+   padding: 10px;
+}
+
+summary { /* Requirement-2.H */
+   margin: 10px;
+   font-weight: bold;
+}
+
+figure, img {
+   float: left; /* Requirement-2.11 */
+   margin-left: 0px;
+   z-index: -1; /* Requirement-2.17 */
+}
+
+img {
+   width: 500px; /* Requirement-2.B */
+}
+
+#d-image { /* Requirement-2.D */
+   height: auto;
+   max-width: 100%;
+}
+
+.hidden {
+   visibility: visible; /* Requirement-2.16 */
+   padding: 10px;
+}
+
+.hidden:hover { /* Requirement-2.E */
+   border: #000 1px black; 
+}
